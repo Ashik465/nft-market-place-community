@@ -21,7 +21,7 @@ const Navbar = () => {
         <li><a>Item 3</a></li>
       </ul>
     </div>
-    <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+    <a style={{ fontFamily: 'Roboto, sans-serif' }} className="btn btn-ghost normal-case font-bold text-xl text-[#3D00B7]">NFTERS</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
