@@ -65,16 +65,14 @@ const Navbar = () => {
             NFTERS
           </a>
           <div className="ml-20 hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">{menu}</ul>
+            <ul className="menu menu-horizontal px-1">{menu}</ul>
+          </div>
         </div>
-        </div>
-       
+
         <div className="navbar-end space-x-2 md:space-x-4">
-      
-             <div className="hidden md:flex">
-             <SearchInput></SearchInput> 
-             </div>
-          
+          <div className="hidden md:flex">
+            <SearchInput></SearchInput>
+          </div>
 
           <a
             style={{
@@ -95,8 +93,6 @@ const Navbar = () => {
           >
             Connect wallet
           </a>
-
-       
         </div>
       </div>
     </>
