@@ -60,7 +60,7 @@ const Navbar = () => {
           </div>
           <a
             style={{ fontFamily: "Roboto, sans-serif" }}
-            className="btn btn-ghost px-0  normal-case font-bold text-xl md:text-4xl text-[#3D00B7]"
+            className="btn btn-ghost   normal-case font-bold text-xl md:text-4xl text-[#3D00B7]"
           >
             NFTERS
           </a>
