@@ -1,3 +1,4 @@
+import CountNumber from "./CountNumber";
 
 
 const Banner = () => {
@@ -12,8 +13,14 @@ const Banner = () => {
                   <p style={{
               fontFamily: "DM Sans, sans-serif",
             }} className=" text-[#565656] text-xl">Digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, Sell, and discover exclusive digital assets.</p>
-
-            <a className="btn-main">Explore Now</a>
+       <div className="py-5">
+        <a  style={{
+              fontFamily: "DM Sans, sans-serif",
+              transition: "transform 0.2s ease-in-out",
+            }} className="btn-main ">Explore Now</a>
+       </div>
+            
+            <CountNumber></CountNumber>
             </div>
          
             
