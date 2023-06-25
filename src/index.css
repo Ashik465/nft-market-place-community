@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn-main{
+    @apply inline-flex px-3 py-2 text-xs md:text-base md:px-10 md:py-4 bg-[#3D00B7] items-center justify-center gap-10 text-white rounded-full font-bold tracking-wide hover:bg-emerald-600 active:scale-95 hover:scale-105 cursor-pointer
+}
+
+.btn-second-main{
+    @apply px-3 py-2 text-xs md:text-base md:px-10 md:py-4 flex items-center justify-center text-[#3D00B7] rounded-full font-bold hover:bg-emerald-600
+    hover:text-white active:scale-95 hover:scale-105 cursor-pointer border-2 border-[#3D00B7] hover:border-transparent
+}
