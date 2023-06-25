@@ -1,3 +1,5 @@
+import SearchInput from "./SearchInput";
+
 const Navbar = () => {
   const menu = (
     <>
@@ -30,7 +32,7 @@ const Navbar = () => {
   );
   return (
     <>
-      <div className="navbar bg-base-100 border-b-[1px] border-[#EFEFEF] p-0 py-2 ">
+      <div className="navbar bg-base-100 border-b-[1px] border-[#EFEFEF] p-0 py-5 ">
         <div className="navbar-start ">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -62,12 +64,18 @@ const Navbar = () => {
           >
             NFTERS
           </a>
-        </div>
-        <div className="navbar-center hidden lg:flex">
+          <div className="ml-20 hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{menu}</ul>
         </div>
+        </div>
+       
         <div className="navbar-end space-x-2 md:space-x-4">
       
+             <div className="hidden md:flex">
+             <SearchInput></SearchInput> 
+             </div>
+          
+
           <a
             style={{
               fontFamily: "DM Sans, sans-serif",
