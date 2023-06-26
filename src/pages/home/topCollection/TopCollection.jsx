@@ -1,4 +1,5 @@
 import FirstCollum from "./FirstCollum";
+import SecondColum from "./SecondColum";
 
 
 const TopCollection = () => {
@@ -6,7 +7,7 @@ const TopCollection = () => {
         <>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5 my-10">
             <div><FirstCollum></FirstCollum></div>
-            <div>2nd</div>
+            <div><SecondColum></SecondColum></div>
             <div>3rd</div>
 
             </div>
