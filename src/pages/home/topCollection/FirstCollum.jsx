@@ -5,7 +5,7 @@ import collogo from "../../../assets/top-collection/1stcollogo.svg";
 const FirstCollum = () => {
   return (
     <>
-      <div className=" p-10 md:p-0 w-96 ">
+      <div className=" p-5 md:p-0 w-96 ">
         <figure>
           <img src={ban1} alt="banner" />
         </figure>
