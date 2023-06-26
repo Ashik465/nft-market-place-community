@@ -1,4 +1,6 @@
 import ban2 from "../../../assets/top-collection/ban2.png";
+import ban3 from "../../../assets/top-collection/ban3.png";
+import ban4 from "../../../assets/top-collection/ban4.png";
 import people from "../../../assets/top-collection/people.png";
 import col2logo from "../../../assets/top-collection/col2.png";
 
@@ -40,7 +42,7 @@ const SecondColum = () => {
       {/* //2nd card */}
       <div className="px-10 md:px-0 mt-5">
         <div className="flex gap-2">
-          <img src={ban2} alt="" />
+          <img src={ban3} alt="" />
           <div
             style={{
               fontFamily: "DM Sans, sans-serif",
@@ -73,7 +75,7 @@ const SecondColum = () => {
       {/* 3rd card */}
       <div className="px-10 md:px-0 mt-5">
         <div className="flex gap-2">
-          <img src={ban2} alt="" />
+          <img src={ban4} alt="" />
           <div
             style={{
               fontFamily: "DM Sans, sans-serif",
