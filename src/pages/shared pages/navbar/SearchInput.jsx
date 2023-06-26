@@ -1,8 +1,8 @@
-import { CgSearch } from 'react-icons/cg';
+import { CgSearch } from "react-icons/cg";
 
 const SearchInput = () => {
-    return (
-        <div className="flex items-center rounded-full border-2 border-[#EFEFEF]  ">
+  return (
+    <div className="flex items-center rounded-full border-2 border-[#EFEFEF]  ">
       <input
         type="text"
         placeholder="Search"
@@ -12,7 +12,7 @@ const SearchInput = () => {
         <CgSearch />
       </button>
     </div>
-    );
+  );
 };
 
 export default SearchInput;

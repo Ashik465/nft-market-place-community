@@ -69,10 +69,12 @@ const EffectCardsSlider = () => {
         </SwiperSlide>
         {/* 2nd slider image  */}
         <SwiperSlide>
-          <div style={{
+          <div
+            style={{
               fontFamily: "DM Sans, sans-serif",
             }}
-            className="relative ">
+            className="relative "
+          >
             <img src={bannerimg2} alt="Banner Image 2" />
             <h1 className="absolute top-0 left-4 text-xl font-bold pt-3">
               Orange Gradient NFT
@@ -106,10 +108,12 @@ const EffectCardsSlider = () => {
         </SwiperSlide>
         {/* third slider image  */}
         <SwiperSlide>
-          <div style={{
+          <div
+            style={{
               fontFamily: "DM Sans, sans-serif",
             }}
-            className="relative ">
+            className="relative "
+          >
             <img src={bannerimg3} alt="Banner Image 3" />
             <h1 className="absolute top-0 left-4 text-xl font-bold pt-3">
               Red Gradient NFT
