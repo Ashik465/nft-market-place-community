@@ -7,7 +7,7 @@ import col2logo from "../../../assets/top-collection/col2.png";
 const SecondColum = () => {
   return (
     <>
-      <div className="px-10 md:px-0">
+      <div className="px-10 md:px-0  border-r-2">
         <div className="flex gap-2">
           <img src={ban2} alt="" />
           <div
@@ -40,7 +40,7 @@ const SecondColum = () => {
         </div>
       </div>
       {/* //2nd card */}
-      <div className="px-10 md:px-0 mt-5">
+      <div className="px-10 md:px-0 pt-5 border-r-2">
         <div className="flex gap-2">
           <img src={ban3} alt="" />
           <div
@@ -73,7 +73,7 @@ const SecondColum = () => {
         </div>
       </div>
       {/* 3rd card */}
-      <div className="px-10 md:px-0 mt-5">
+      <div className="px-10 md:px-0 pt-5 border-r-2">
         <div className="flex gap-2">
           <img src={ban4} alt="" />
           <div
