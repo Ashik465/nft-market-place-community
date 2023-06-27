@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import filter from "../../../assets/discover-more/filter.png";
 import CardNFT from "./CardNFT";
+import LazyLoad from "react-lazy-load";
 
 const DiscoverNFT = () => {
   const [nft, setNft] = useState([]);
@@ -43,7 +44,9 @@ const DiscoverNFT = () => {
   const filteredNft =
     selectedCategory === "All Categories"
       ? nft
-      : nft.filter((item) => item.type.toLowerCase() === selectedCategory.toLowerCase());
+      : nft.filter(
+          (item) => item.type.toLowerCase() === selectedCategory.toLowerCase()
+        );
 
   const handleShowAll = () => {
     setShowAll(true);
@@ -52,7 +55,10 @@ const DiscoverNFT = () => {
   return (
     <div className="bg-[#D9E0EC21] mt-20 backdrop-blur-xl">
       <div className="container mx-auto py-20">
-        <h1 style={{ fontFamily: "Roboto, sans-serif" }} className="font-bold text-4xl px-5">
+        <h1
+          style={{ fontFamily: "Roboto, sans-serif" }}
+          className="font-bold text-4xl px-5"
+        >
           Discover more NFTs
         </h1>
 
@@ -71,31 +77,41 @@ const DiscoverNFT = () => {
               </h1>
             ))}
           </div>
-
+          {/* filter */}
           <div className="dropdown dropdown-end pl-32 sm:pl-0">
-            <div className="flex items-center gap-2 bg-[#DCDCDC33] rounded-full px-4 py-2">
+            <div className="flex items-center gap-2 bg-[#DCDCDC33]  rounded-full px-4 py-2">
               <img src={filter} alt="" />
               <label
-                style={{ fontFamily: "DM Sans, sans-serif" }}
-                className="text-base font-medium text-[#371C87] cursor-pointer m-1"
+                tabIndex={0}
+                style={{
+                  fontFamily: "DM Sans, sans-serif",
+                }}
+                className="   text-base font-medium   text-[#371C87] cursor-pointer  m-1"
               >
                 All Filters
               </label>
             </div>
-            <ul className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+
+            <ul
+              tabIndex={0}
+              className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
+            >
               <li>
-                <a>Price</a>
+                <a> Price</a>
               </li>
               <li>
-                <a>New</a>
+                <a> New</a>
               </li>
             </ul>
           </div>
+          {/*  */}
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5 my-10 px-10 md:px-5">
           {filteredNft.slice(0, showAll ? undefined : 16).map((item, index) => (
-            <CardNFT key={index} nft={item} />
+            <LazyLoad key={index} once>
+              <CardNFT nft={item} />
+            </LazyLoad>
           ))}
         </div>
 
