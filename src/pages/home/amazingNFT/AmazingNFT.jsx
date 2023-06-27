@@ -3,8 +3,8 @@ import growth from "../../../assets/banner-image/growth.png";
 
 const AmazingNFT = () => {
   return (
-    <>
-      <div className=" bg-[#D9E0EC21] my-20  backdrop-blur-xl flex flex-col md:flex-row  py-32 px-5 gap-10 xl:gap-28">
+    <div className="bg-[#D9E0EC21] my-20  backdrop-blur-xl">
+      <div className=" container mx-auto  flex flex-col md:flex-row  py-32 px-5 gap-10 xl:gap-28">
         <div className="">
           <h1
             style={{ fontFamily: "Roboto, sans-serif" }}
@@ -44,11 +44,12 @@ const AmazingNFT = () => {
           </div>
 
           <p className="text-[#696969] text-base ml-12 ">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam etiam viverra tellus
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            etiam viverra tellus
           </p>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

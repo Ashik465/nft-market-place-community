@@ -31,8 +31,8 @@ const Navbar = () => {
     </>
   );
   return (
-    <>
-      <div className="navbar bg-base-100 border-b-[1px] border-[#EFEFEF] p-0 py-5 ">
+    <div className="bg-base-100 border-b-[1px] border-[#EFEFEF] p-0 py-5">
+      <div className="navbar container mx-auto  ">
         <div className="navbar-start ">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -95,7 +95,7 @@ const Navbar = () => {
           </a>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -5,7 +5,7 @@ import ThirdColum from "./ThirdColum";
 const TopCollection = () => {
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 my-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 my-10 container mx-auto">
         <div>
           <FirstCollum></FirstCollum>
         </div>

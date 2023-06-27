@@ -14,8 +14,8 @@ import people from "../../../assets/collection-featured/people.png";
 
 const CollectionFeatured = () => {
   return (
-    <>
-      <div className=" bg-[#D9E0EC21] my-20  backdrop-blur-xl py-32  ">
+    <div className="bg-[#D9E0EC21] my-20  backdrop-blur-xl ">
+      <div className=" container mx-auto  py-32  ">
         <h1
           style={{ fontFamily: "Roboto, sans-serif" }}
           className="p-5  md:p-0  font-bold text-4xl "
@@ -58,7 +58,10 @@ const CollectionFeatured = () => {
                     fontFamily: "DM Sans, sans-serif",
                   }}
                 >
-                  <h1 className="font-bold text-[#2639ED] text-xs border-[#2639ED] border-[1px] rounded-full p-2 ">
+                  <h1
+                    className="font-bold text-[#2639ED] text-xs border-[#2639ED] border-[1px] rounded-full p-2 hover:bg-[#3D00B7]
+                  hover:text-white"
+                  >
                     Total 54 Items
                   </h1>
                 </div>
@@ -101,7 +104,10 @@ const CollectionFeatured = () => {
                     fontFamily: "DM Sans, sans-serif",
                   }}
                 >
-                  <h1 className="font-bold text-[#2639ED] text-xs border-[#2639ED] border-[1px] rounded-full p-2 ">
+                  <h1
+                    className="font-bold text-[#2639ED] text-xs border-[#2639ED] border-[1px] rounded-full p-2 hover:bg-[#3D00B7]
+                   hover:text-white"
+                  >
                     Total 54 Items
                   </h1>
                 </div>
@@ -143,7 +149,10 @@ const CollectionFeatured = () => {
                     fontFamily: "DM Sans, sans-serif",
                   }}
                 >
-                  <h1 className="font-bold text-[#2639ED] text-xs border-[#2639ED] border-[1px] rounded-full p-2 ">
+                  <h1
+                    className="font-bold text-[#2639ED] text-xs border-[#2639ED] border-[1px] rounded-full p-2 hover:bg-[#3D00B7]
+                   hover:text-white "
+                  >
                     Total 54 Items
                   </h1>
                 </div>
@@ -154,7 +163,7 @@ const CollectionFeatured = () => {
 
         {/* card section end */}
       </div>
-    </>
+    </div>
   );
 };
 

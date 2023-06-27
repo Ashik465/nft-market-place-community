@@ -4,7 +4,7 @@ import EffectCardsSlider from "./EffectCardsSlider";
 const Banner = () => {
   return (
     <>
-      <div className=" flex md:flex-row flex-col gap-10  md:gap-28  mt-6 ">
+      <div className=" flex md:flex-row flex-col gap-10  md:gap-28  mt-6 container mx-auto ">
         <div className=" p-4  md:w-1/2 space-y-4">
           <h1
             style={{ fontFamily: "Roboto, sans-serif" }}
