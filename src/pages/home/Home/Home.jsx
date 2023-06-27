@@ -1,3 +1,4 @@
+import DiscoverNFT from "../DiscoverNFT/DiscoverNFT";
 import AmazingNFT from "../amazingNFT/AmazingNFT";
 import Banner from "../banner/Banner";
 import CollectionFeatured from "../collectionFeatured/CollectionFeatured";
@@ -11,6 +12,7 @@ const Home = () => {
             <AmazingNFT></AmazingNFT>
             <TopCollection></TopCollection>
             <CollectionFeatured></CollectionFeatured>
+            <DiscoverNFT></DiscoverNFT>
         </div>
     );
 };
