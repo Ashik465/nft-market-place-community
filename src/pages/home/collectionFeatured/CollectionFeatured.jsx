@@ -18,12 +18,12 @@ const CollectionFeatured = () => {
       <div className=" container mx-auto  py-32  ">
         <h1
           style={{ fontFamily: "Roboto, sans-serif" }}
-          className="p-5  md:p-0  font-bold text-4xl "
+          className="pl-5 xl:pl-0  font-bold text-4xl "
         >
           Collection Featured NFTs
         </h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 my-10">
+        <div className="grid grid-cols-1  xl:grid-cols-3 gap-5 my-10">
           {/* 1st card starts  */}
           <div className="p-5  md:p-0  w-96 ">
             <div className="grid grid-rows-3 grid-flow-col gap-2  ">
