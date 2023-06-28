@@ -69,7 +69,7 @@ const DiscoverNFT = () => {
                 key={category}
                 style={{ fontFamily: "DM Sans, sans-serif" }}
                 className={`bg-[#DCDCDC33] rounded-full px-4 py-2 text-base font-medium hover:bg-[#3D00B7] hover:text-white cursor-pointer ${
-                  selectedCategory === category ? "bg-[#3D00B7] text-white" : ""
+                  selectedCategory === category ? " text-[#3D00B7]" : ""
                 }`}
                 onClick={() => handleCategorySelect(category)}
               >
